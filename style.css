@@ -7,7 +7,23 @@
 /* Describing the madia query for mobile screen */
 @media (max-width: 769px) {
   /* meta styling */
-  .logo  {
+
+  .social_icons {
+    background-color: #000;
+    display: none;
+  }
+
+  .social_icons ul {
+    display: flex;
+    gap: 20px;
+    padding: 10px 10px 10px 10px;
+    list-style: none;
+    margin-left: 950px;
+    color: white;
+    width: 900px;
+  }
+
+  .logo {
     margin: 10px;
     font-size: 10px;
     text-align: center;
@@ -33,6 +49,16 @@
     font-weight: bold;
   }
 
+  .cony {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+    border: 8px solid red;
+    color: red;
+    padding: 10px 10px 10px 10px;
+    display: none;
+  }
+
   .mobile_capstone {
     display: flex;
     flex-direction: column;
@@ -50,7 +76,7 @@
     color: red;
     margin: 10px;
     margin-right: 200px;
-   font-weight: 600;
+    font-weight: 600;
   }
 
   .meta_title {
@@ -99,7 +125,8 @@
     align-items: center;
     justify-content: center;
     background: url(assets/images/Screenshot\ 2024-12-04\ 135824.png);
-    gap: 20px;
+    gap: 30px;
+    background-color: aqua;
   }
 
   .charset_card {
@@ -107,13 +134,11 @@
     align-items: center;
     justify-content: center;
     background-color: #282b32;
-    
   }
 
   .charset_card img {
     height: 90px;
     width: 80px;
-   
   }
 
   .charset_title {
@@ -122,7 +147,7 @@
     margin: 20px;
   }
 
-  .charset_bar{
+  .charset_bar {
     justify-content: center;
     background-color: #a04038;
     padding: 3px 15px;
@@ -155,6 +180,12 @@
     padding: 20px 10px;
   }
 
+  .request {
+    color: white;
+    margin: 30px;
+    display: none;
+  }
+
   /* speakers styling */
 
   .speakers_cards {
@@ -163,7 +194,6 @@
     justify-content: center;
     align-items: center;
     gap: 15px;
-   
   }
 
   .speakers_card {
@@ -171,7 +201,6 @@
     gap: 10px;
     justify-content: center;
     align-items: center;
-    
   }
 
   .speaker_image img {
@@ -206,6 +235,21 @@
     margin-left: 150px;
   }
 
+  .Exhibition_content p {
+    display: flex;
+    color: #3b3e45;
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  .Exhibition_home p {
+    display: flex;
+    color: #3b3e45;
+    font-weight: 500;
+    font-size: 20px;
+    width: 900px;
+  }
+
   .speaker_description p:nth-child(2) {
     color: #f78c89;
   }
@@ -226,14 +270,114 @@
     margin: 50px;
   }
 
-    
+  /* mergal styling */
+  .mergal {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background-color: #414246;
+    height: 250px;
+  }
+
+  .mergal_title {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .mergal_bar {
+    justify-content: center;
+    background-color: #a04038;
+    padding: 3px 15px;
+    width: 40px;
+    border-radius: 3px;
+    margin: 5px 145px;
+  }
+
+  .mergal_card_images {
+    width: 512px;
+    height: 300px;
+  }
+
+  .mergal_image_card,
+  .mergal_card_images {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 327px;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 5px;
+    gap: 10px;
+    margin: 10px 0;
+    flex-wrap: wrap;
+  }
+
+  /* Exhibition Styling */
+
+  .Exhibition_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px;
+  }
+
+  .Exhibition_content h3 {
+    font-size: 20px;
+    font-weight: 900;
+    color: #3a4a42;
+  }
+
+  .Exhibition_home {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px;
+  }
+
+  .Exhibition_home h3 {
+    font-size: 20px;
+    font-weight: 900;
+    color: #3a4a42;
+  }
+
+  .writing {
+    color: #000;
+    display: flex;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 80px;
+  }
 }
 
-/*TABLET SECTION*/
+/* TABLET SECTION */
 
-@media (min-width: 769px) and (max-width: 1025px){
+@media (min-width: 769px) and (max-width: 1025px) {
   /* meta styling */
-  .logo  {
+
+  .social_icons {
+    background-color: #000;
+    display: none;
+  }
+
+  .social_icons ul {
+    display: flex;
+    gap: 20px;
+    padding: 10px 10px 10px 10px;
+    list-style: none;
+    margin-left: 950px;
+    color: white;
+    width: 900px;
+  }
+
+  .logo {
     margin: 10px;
     font-size: 10px;
     text-align: center;
@@ -257,6 +401,16 @@
     color: #3a4a42;
     font-size: 18px;
     font-weight: bold;
+  }
+
+  .cony {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+    border: 8px solid red;
+    color: red;
+    padding: 10px 10px 10px 10px;
+    display: none;
   }
 
   .mobile_capstone {
@@ -324,18 +478,16 @@
     align-items: center;
     justify-content: center;
     background: url(assets/images/Screenshot\ 2024-12-04\ 135824.png);
-   
-    
   }
-  .charset_cards{
-    gap: 10px;
+
+  .charset_cards {
     display: grid;
     grid-template-columns: auto auto;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     gap: 15px;
-   align-items: center;
+    align-items: center;
   }
 
   .charset_card {
@@ -352,7 +504,7 @@
   .charset_card img {
     width: 40%;
     height: auto;
-    
+    margin-left: 100px;
   }
 
   .charset_title {
@@ -368,7 +520,6 @@
     width: 50px;
     border-radius: 3px;
     margin: 10px 150px;
-   
   }
 
   .charset_card h3 {
@@ -382,10 +533,10 @@
     color: white;
     margin: 10px;
     line-height: 22.3px;
-   display: flex;
-   flex-direction: column;
-   text-align: center;
-   justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
   }
 
   .charset_menu {
@@ -398,6 +549,12 @@
     padding: 20px 10px;
   }
 
+  .request {
+    color: white;
+    margin: 30px;
+    display: none;
+  }
+
   /* speakers styling */
 
   .speakers_cards {
@@ -407,7 +564,6 @@
     align-items: center;
     gap: 15px;
     grid-template-columns: auto auto;
-   
   }
 
   .speakers_card {
@@ -415,23 +571,24 @@
     gap: 10px;
     justify-content: center;
     align-items: center;
-   
   }
 
   .speaker_image img {
     width: 100px;
     height: auto;
     display: grid;
+    margin: 20px 50px;
   }
 
   .speakers_heading {
     text-align: center;
     font-weight: bold;
     font-size: 30px;
+    margin: 20px;
   }
 
   .speaker_description {
-    display:grid;
+    display: grid;
     flex-direction: column;
     gap: 10px;
   }
@@ -450,13 +607,30 @@
     margin: 20px 350px;
   }
 
+  .Exhibition_content p {
+    display: flex;
+    color: #3b3e45;
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  .Exhibition_home p {
+    display: flex;
+    color: #3b3e45;
+    font-weight: 500;
+    font-size: 20px;
+    width: 900px;
+  }
+
   .speaker_description p:nth-child(2) {
     color: #f78c89;
   }
-.speaker_descriptionp:nth-child(1){
-  color:#000;
-  font-weight: 500;
-}
+
+  .speaker_descriptionp:nth-child(1) {
+    color: #000;
+    font-weight: 500;
+  }
+
   .line_brack {
     background-color: whitesmoke;
     padding: 3px;
@@ -470,8 +644,474 @@
     height: 38px;
     border-radius: 4px;
     border: 1px solid #dcdcdc;
-    margin: 50px 200px;
-    
+    margin: 50px 230px;
   }
 
+  /* mergal styling */
+  .mergal {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background-color: #414246;
+    height: 250px;
+    width: 800px;
+  }
+
+  .mergal_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 3px 90px;
+    text-align: center;
+  }
+
+  .mergal_bar {
+    justify-content: center;
+    background-color: #a04038;
+    padding: 3px 15px;
+    width: 40px;
+    border-radius: 3px;
+    margin: 5px 145px;
+  }
+
+  .mergal_card_images {
+    width: 412px;
+    height: 300px;
+  }
+
+  .mergal_image_card,
+  .mergal_card_images {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 327px;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 5px;
+    gap: 10px;
+    margin: 10px 0;
+    flex-wrap: wrap;
+  }
+
+  /* Exhibition Styling */
+
+  .Exhibition_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px;
+  }
+
+  .Exhibition_content h3 {
+    font-size: 20px;
+    font-weight: 900;
+    color: #3a4a42;
+  }
+
+  .Exhibition_home {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px;
+  }
+
+  .Exhibition_home h3 {
+    font-size: 20px;
+    font-weight: 900;
+    color: #3a4a42;
+  }
+
+  .writing {
+    color: #000;
+    display: flex;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 80px;
+  }
+}
+
+/* DESKTOP STYLING */
+@media (min-width: 1025px) {
+  /* mete styling */
+
+  /* .logo  {
+   font-size: 10px;
+   margin-left: 100px;
+  } */
+  .desktop_capstone {
+    display: grid;
+  }
+
+  .desktop_capstone ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    align-items: center;
+    margin-left: 500px;
+    padding: 10px 10px 10px 10px;
+  }
+
+  .desktop_capstone ul li a {
+    text-decoration: none;
+    color: #3a4a42;
+    font-size: 20px;
+    font-weight: 900;
+  }
+
+  .social_icons {
+    background-color: #000;
+  }
+
+  .social_icons ul {
+    display: flex;
+    gap: 20px;
+    padding: 10px 10px 10px 10px;
+    list-style: none;
+    margin-left: 950px;
+    color: white;
+    width: 900px;
+  }
+
+  .cony {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+    border: 8px solid red;
+    color: red;
+    padding: 10px 10px 10px 10px;
+  }
+
+  .meta_paragraph_1 {
+    color: red;
+    margin: 10px;
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .meta_title {
+    color: red;
+    font-weight: 900;
+    font-size: 50px;
+    margin: 15px;
+    text-align: center;
+    width: 800px;
+  }
+
+  .meta_paragraph_2 {
+    background-color: white;
+    font-size: 20px;
+    color: #000;
+    margin: 15px;
+    padding: 25px 8px;
+    align-items: center;
+    line-height: 30px;
+  }
+
+  .meta_date {
+    color: #3a4a42;
+    text-align: center;
+  }
+
+  .meta_mail {
+    color: #3a4a42;
+    margin: 10px;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .meta {
+    background: url(assets/images/Screenshot\ 2024-12-09\ 124647.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 55px 0;
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* charset styling */
+  .charset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(assets/images/Screenshot\ 2024-12-04\ 135824.png);
+  }
+
+  .charset_cards {
+    gap: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .charset_card {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    width: 260px;
+    height: 350px;
+    gap: 5px;
+    background-color: #282b32;
+  }
+
+  .charset_card img {
+    width: 40%;
+    height: auto;
+    margin-left: 70px;
+  }
+
+  .charset_title {
+    color: white;
+    text-align: center;
+    margin: 20px;
+  }
+
+  .charset_bar {
+    justify-content: center;
+    background-color: #a04038;
+    padding: 3px 15px;
+    width: 50px;
+    border-radius: 3px;
+    margin: 20px 350px;
+  }
+
+  .charset_card h3 {
+    color: #ff5438;
+    font-size: large;
+    margin: 30px;
+    align-items: center;
+    margin-top: 100px;
+  }
+
+  .charset_card p {
+    color: white;
+    margin: 10px;
+    line-height: 22.3px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+
+  /* .charset_h3{
+   background-color: #000;
+    margin: 50px;
+    font-size: 30px;
+    color: white;
+} */
+  .charset_menu {
+    text-align: center;
+    margin: 30px;
+    background-color: #ff5438;
+    color: white;
+    width: 300px;
+    height: 60px;
+    padding: 20px 10px;
+    display: none;
+  }
+
+  .request {
+    color: white;
+    margin: 30px;
+    text-decoration: underline;
+  }
+
+  /* speakers styling */
+
+  .speakers_cards {
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    grid-template-columns: auto auto;
+  }
+
+  .speakers_card {
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+  }
+
+  .speaker_image img {
+    width: 100px;
+    height: auto;
+    display: grid;
+  }
+
+  .speakers_heading {
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    margin: 20px;
+  }
+
+  .speaker_description {
+    display: grid;
+
+    /* flex-direction: column; */
+    gap: 10px;
+  }
+
+  .speaker_description h3 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .speaker_bar p {
+    justify-content: center;
+    background-color: #a04038;
+    padding: 3px 15px;
+    width: 50px;
+    border-radius: 3px;
+    margin: 20px 640px;
+  }
+
+  .Exhibition_content p {
+    display: flex;
+    color: #3b3e45;
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  .Exhibition_home p {
+    display: flex;
+    color: #3b3e45;
+    font-weight: 500;
+    font-size: 20px;
+    width: 900px;
+  }
+
+  .speaker_description p:nth-child(2) {
+    color: #f78c89;
+  }
+
+  .speaker_descriptionp:nth-child(1) {
+    color: #000;
+    font-weight: 500;
+  }
+
+  .line_brack {
+    background-color: whitesmoke;
+    padding: 3px;
+    width: 40px;
+    border-radius: 3px;
+    margin: 8px 8px;
+  }
+
+  .speaker_hover {
+    width: 300px;
+    height: 38px;
+    border-radius: 4px;
+    border: 1px solid #dcdcdc;
+    margin: 50px 500px;
+    display: none;
+  }
+
+  /* mergal styling */
+  .mergal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background-color: #414246;
+    margin: 20px;
+  }
+
+  .mergal_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 3px 90px;
+    text-align: center;
+  }
+
+  .mergal_bar {
+    justify-content: center;
+    background-color: #a04038;
+    padding: 3px 15px;
+    width: 40px;
+    border-radius: 3px;
+    margin: 5px 145px;
+  }
+
+  .mergal_card_images {
+    width: 812px;
+    height: 200px;
+    margin: 400px;
+  }
+
+  .mergal_image_card,
+  .mergal_card_images {
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+    width: 327px;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 5px;
+    gap: 50px;
+    margin: 10px 0;
+  }
+
+  /* Exhibition Styling */
+
+  .Exhibition_home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px;
+  }
+
+  .Exhibition_home h3 {
+    font-size: 20px;
+    font-weight: 900;
+    color: #3a4a42;
+  }
+
+  .writing {
+    color: #000;
+    display: flex;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 80px;
+  }
+
+  .Exhibition_content {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px;
+  }
+
+  .Exhibition_content h3 {
+    font-size: 20px;
+    font-weight: 900;
+    color: #3a4a42;
+  }
 }
