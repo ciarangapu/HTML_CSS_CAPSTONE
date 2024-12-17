@@ -27,7 +27,7 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 PORTFOLIO_WEBSITE
+# 📖HTML_CSS_CAPSTONE
  <a name="about-project"></a>
 
 This is the first technical Codegisoft Academy project it tests more on Git, GitHub, GitHub Workflow and Linters.
@@ -52,6 +52,7 @@ A demo link will be uploaded subsequently.
 - creating html and css and script.js files
 - added a description to the project
 - creating different branches
+- creating seperate files
 
 ## 💻 Getting Started <a name="getting-started"></a>
 

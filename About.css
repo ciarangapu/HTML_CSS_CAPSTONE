@@ -134,7 +134,7 @@
     flex-direction: column;
     gap: 3px;
     margin-right: 320px;
-    padding: 10px;
+    padding: 15px;
   }
 
   .metaly_paragraph_1 {
@@ -148,7 +148,7 @@
     color: red;
     font-weight: 900;
     font-size: 28px;
-    margin: 15px;
+    margin: 14px;
     text-align: center;
     width: 400px;
   }
@@ -874,7 +874,7 @@
 
   .metaly_title {
     color: red;
-    font-weight: 900;
+    font-weight: 800;
     font-size: 30px;
     margin: 15px;
     text-align: center;
@@ -895,13 +895,13 @@
 
   .media_p {
     background-color: white;
-    font-size: 15px;
     color: #000;
-    margin: 14px;
+    margin: 15px;
     align-items: center;
-    line-height: 25px;
+    line-height: 30px;
     font-weight: 400;
     text-align: center;
+    font-size: 18px;
   }
 
   .metaly_request {
@@ -924,6 +924,7 @@
     font-size: 20px;
     margin: 15px;
     font-weight: bold;
+    text-decoration: underline;
   }
 
   .metally {
@@ -1044,9 +1045,9 @@
     background: url(./assets/images/arch.jpeg) no-repeat;
     background-position: center;
     background-size: cover;
+    opacity: 30%;
     background-color: #8f230f;
     z-index: 1000;
-    opacity: 40%;
     width: 500px;
     height: 400px;
   }
@@ -1057,7 +1058,7 @@
     background-size: cover;
     background-color: #8f230f;
     z-index: 1000;
-    opacity: 40%;
+    opacity: 30%;
     width: 500px;
     height: 400px;
   }

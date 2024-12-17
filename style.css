@@ -73,7 +73,7 @@
     line-height: 22.3px;
   }
 
-  .speaker_bar p {
+  .author_bar p {
     background-color: #a04038;
     padding: 3px 15px;
     width: 50px;
@@ -138,7 +138,7 @@
     flex-direction: column;
     gap: 3px;
     margin-right: 320px;
-    padding: 10px;
+    padding: 15px;
   }
 
   .meta_paragraph_1 {
@@ -156,7 +156,7 @@
   }
 
   .meta_paragraph_2 {
-    border: 1px solid whitesmoke;
+    border: 3px solid white;
     font-size: 15px;
     color: #3a4a42;
     margin: 15px;
@@ -249,8 +249,11 @@
   }
 
   /* speakers styling */
+  .speakers {
+    display: flex;
+  }
 
-  .speakers_cards {
+  .speaker_cards {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -263,26 +266,27 @@
     gap: 10px;
     justify-content: center;
     align-items: center;
+    margin: 10px;
   }
 
-  .speaker_image img {
+  .speakers_image img {
     width: 100px;
     height: auto;
   }
 
-  .speakers_heading {
+  .speaker_heading {
     text-align: center;
     font-weight: bold;
     font-size: 30px;
   }
 
-  .speaker_description {
+  .speakers_description {
     display: flex;
     flex-direction: column;
     gap: 10px;
   }
 
-  .speaker_description h3 {
+  .speakers_description h3 {
     font-size: 20px;
     font-weight: bold;
   }
@@ -300,7 +304,76 @@
     height: 38px;
     border-radius: 4px;
     border: 1px solid #dcdcdc;
-    margin: 50px;
+    margin: 50px 10px 20px 40px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .more {
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .open_more {
+    visibility: visible;
+    top: -10%;
+    position: relative;
+  }
+
+  .speakers1 {
+    display: none;
+  }
+
+  .speakers_cards {
+    /* display: grid; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    grid-template-columns: auto auto;
+  }
+
+  .speakers_carding {
+    /* display: flex; */
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+  }
+
+  .speaker_image img {
+    width: 100px;
+    height: auto;
+    display: grid;
+  }
+
+  .speakers_heading {
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    margin: 20px;
+  }
+
+  .speaker_description {
+    display: grid;
+
+    /* flex-direction: column; */
+    gap: 10px;
+  }
+
+  .speaker_description h3 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .speaker_bar {
+    justify-content: center;
+    background-color: #a04038;
+    padding: 3px 15px;
+    width: 50px;
+    border-radius: 3px;
+    margin: 20px 640px;
   }
 
   /* mergal styling */
@@ -423,7 +496,7 @@
   .desktop_capstone.active {
     display: flex;
     position: absolute;
-    height: 80vh;
+    height: 90vh;
     width: 769px;
     border-radius: 8px;
     background-color: #fff;
@@ -472,7 +545,7 @@
     justify-content: center;
   }
 
-  .speaker_bar p {
+  .author_bar p {
     justify-content: center;
     background-color: #a04038;
     padding: 3px 15px;
@@ -496,7 +569,7 @@
     width: 900px;
   }
 
-  .speaker_description p:nth-child(2) {
+  .speakers_description p:nth-child(2) {
     color: #f78c89;
   }
 
@@ -550,10 +623,11 @@
     font-weight: bolder;
     font-size: 30px;
     margin: 20px;
+    width: 340px;
   }
 
   .meta_paragraph_2 {
-    border: 1px solid whitesmoke;
+    border: 5px solid white;
     font-size: 18px;
     color: #3a4a42;
     margin: 15px;
@@ -650,9 +724,8 @@
   }
 
   /* speakers styling */
-
-  .speakers_cards {
-    display: grid;
+  .speaker_cards {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -661,48 +734,36 @@
   }
 
   .speakers_card {
-    display: grid;
+    display: flex;
     gap: 10px;
     justify-content: center;
     align-items: center;
   }
 
-  .speaker_image img {
+  .speakers_image img {
     width: 100px;
     height: auto;
-    display: grid;
-    margin: 20px 50px;
   }
 
-  .speakers_heading {
+  .speaker_heading {
     text-align: center;
     font-weight: bold;
     font-size: 30px;
-    margin: 20px;
   }
 
-  .speaker_description {
-    display: grid;
+  .speakers_description {
     flex-direction: column;
     gap: 10px;
   }
 
-  .speaker_description h3 {
+  .speakers_description h3 {
     font-size: 20px;
     font-weight: bold;
   }
 
-  .speaker_descriptionp:nth-child(1) {
-    color: #000;
-    font-weight: 500;
-  }
-
   .line_brack {
     background-color: whitesmoke;
-    padding: 3px;
-    width: 40px;
     border-radius: 3px;
-    margin: 8px 8px;
   }
 
   .speaker_hover {
@@ -710,7 +771,65 @@
     height: 38px;
     border-radius: 4px;
     border: 1px solid #dcdcdc;
-    margin: 50px 230px;
+    margin: 50px 10px 20px 250px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .more {
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .open_more {
+    visibility: visible;
+    top: -10%;
+    position: relative;
+  }
+
+  /* speakers styling */
+
+  .speakers1 {
+    display: none;
+  }
+
+  .speakers_cards {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    grid-template-columns: auto auto;
+  }
+
+  .speakers_carding {
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+  }
+
+  .speaker_image img {
+    width: 100px;
+    height: auto;
+    display: grid;
+  }
+
+  .speakers_heading {
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    margin: 20px;
+  }
+
+  .speaker_description {
+    display: grid;
+    gap: 10px;
+  }
+
+  .speaker_description h3 {
+    font-size: 20px;
+    font-weight: bold;
   }
 
   /* mergal styling */
@@ -868,42 +987,41 @@
     color: red;
     margin: 10px;
     text-align: center;
-    font-size: 40px;
+    font-size: 25px;
+    margin-right: 700px;
   }
 
   .meta_title {
     color: red;
-    font-weight: 900;
-    font-size: 50px;
+    font-size: 40px;
     margin: 15px;
-    text-align: center;
-    width: 800px;
+    margin-right: 500px;
+    width: 450px;
   }
 
   .meta_paragraph_2 {
-    background-color: white;
-    font-size: 20px;
+    border: 5px solid white;
+    font-size: 18px;
     color: #000;
     margin: 15px;
-    padding: 25px 8px;
+    padding: 28px 8px;
     align-items: center;
     line-height: 30px;
+    width: 590px;
   }
 
   .meta_date {
     color: #3a4a42;
-    text-align: center;
   }
 
   .meta_mail {
     color: #3a4a42;
     margin: 10px;
     font-size: 15px;
-    text-align: center;
   }
 
   .meta {
-    background: url(assets/images/Screenshot\ 2024-12-09\ 124647.png);
+    background: url(assets/images/home-background.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1002,6 +1120,65 @@
 
   /* speakers styling */
 
+  .speaker {
+    display: none;
+  }
+
+  .speaker_cards {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    grid-template-columns: auto auto;
+  }
+
+  .speakers_card {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+  }
+
+  .speakers_image img {
+    width: 100px;
+    height: auto;
+    display: grid;
+  }
+
+  .speaker_heading {
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    margin: 20px;
+  }
+
+  .speakers_description {
+    display: grid;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .speakers_description h3 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .speakers_bar p {
+    justify-content: center;
+    background-color: #a04038;
+    padding: 3px 15px;
+    width: 50px;
+    border-radius: 3px;
+    margin: 20px 640px;
+  }
+
+  /* speakers styling */
+  .speakers {
+    display: grid;
+  }
+
   .speakers_cards {
     display: grid;
     flex-direction: column;
@@ -1011,8 +1188,8 @@
     grid-template-columns: auto auto;
   }
 
-  .speakers_card {
-    display: grid;
+  .speakers_carding {
+    display: flex;
     gap: 10px;
     justify-content: center;
     align-items: center;
@@ -1034,8 +1211,6 @@
 
   .speaker_description {
     display: grid;
-
-    /* flex-direction: column; */
     gap: 10px;
   }
 
