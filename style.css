@@ -799,7 +799,6 @@
     justify-content: center;
     align-items: center;
     gap: 15px;
-    grid-template-columns: auto auto;
   }
 
   .speakers_carding {
@@ -812,7 +811,7 @@
   .speaker_image img {
     width: 100px;
     height: auto;
-    display: grid;
+    display: flex;
   }
 
   .speakers_heading {
@@ -930,7 +929,7 @@
 
   .logo {
     font-size: 10px;
-    margin-left: 100px;
+    margin-left: 20px;
   }
 
   .desktop_capstone {
@@ -942,8 +941,9 @@
     gap: 30px;
     list-style: none;
     align-items: center;
-    margin-left: 500px;
+    margin-left: 30%;
     padding: 10px 10px 10px 10px;
+    margin-top: -80px;
   }
 
   .desktop_capstone ul li a {
@@ -1004,7 +1004,7 @@
     font-size: 18px;
     color: #000;
     margin: 15px;
-    padding: 28px 8px;
+    padding: 20px 8px;
     align-items: center;
     line-height: 30px;
     width: 590px;
@@ -1012,12 +1012,14 @@
 
   .meta_date {
     color: #3a4a42;
+    margin-left: 30px;
   }
 
   .meta_mail {
     color: #3a4a42;
     margin: 10px;
     font-size: 15px;
+    margin-left: 30px;
   }
 
   .meta {
