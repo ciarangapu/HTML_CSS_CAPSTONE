@@ -24,8 +24,6 @@
   }
 
   .logo {
-    margin: 10px;
-    font-size: 20px;
     text-align: center;
   }
 
@@ -196,6 +194,7 @@
     font-size: 20px;
     margin: 15px;
     font-weight: bold;
+    text-decoration: underline;
   }
 
   .metally {
@@ -297,6 +296,7 @@
   .submite_card {
     width: 380px;
     height: 300px;
+    color: white;
   }
 
   .submite_card:nth-child(1) {
@@ -687,6 +687,7 @@
     display: grid;
     justify-content: center;
     align-items: center;
+    color: white;
   }
 
   .submite_card:nth-child(1) {
@@ -1040,6 +1041,7 @@
     display: grid;
     justify-content: center;
     align-items: center;
+    color: white;
   }
 
   .submite_card:nth-child(1) {
