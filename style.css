@@ -203,6 +203,7 @@
     align-items: center;
     justify-content: center;
     background-color: #282b32;
+    border: 1px solid black;
   }
 
   .charset_card img {
