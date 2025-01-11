@@ -32,7 +32,7 @@
 
 This is the first technical Codegisoft Academy project it tests more on Git, GitHub, GitHub Workflow and Linters.
 
-*[Hello-Codegisoft Academy]* is a HTML CSS project
+*[HTML_CSS_CAPSTONE]* is a HTML CSS AND JAVASCRIPT project
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -40,6 +40,7 @@ This is the first technical Codegisoft Academy project it tests more on Git, Git
 
 - HTML
 - CSS
+- JAVASCRIPT
 - Linters
 
 ### Key Features <a name="key-features"></a>
@@ -94,7 +95,7 @@ To run tests, run the following command:
 sh
   npx hint .
   npx stylelint "**/*.{css,scss}"
-
+   npx eslint .
 
 ### Deployment
 
