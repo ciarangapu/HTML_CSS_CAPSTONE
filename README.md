@@ -4,7 +4,7 @@
 
   <br/>
 
-  <h1><b>PORTFOLIO_WEBSITE</b></h1>
+  <h1><b>HTML_CSS_CAPSTONE</b></h1>
 
 </div>
 
@@ -51,7 +51,7 @@ This is the first technical Codegisoft Academy project it tests more on Git, Git
 
 A demo link will be uploaded subsequently.
 - creating html and css and script.js files
-- added a description to the project
+- adding a description to the project
 - creating different branches
 - creating seperate files
 
@@ -71,7 +71,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 sh
-preparatory/HTML_CSS_CAPSTONE
+FULL STACK DEVELOPMENT/HTML_CSS_CAPSTONE
   git clone https://github.com/ciarangapu/HTML_CSS_CAPSTONE.git
 
 
